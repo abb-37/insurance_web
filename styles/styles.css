@@ -1,0 +1,54 @@
+/* Reset margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the header */
+  header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Flexbox container for content */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Left section styles */
+  .left-section {
+    width: 25%; /* 1/4 of the total width */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+  }
+  
+  /* Main body section styles */
+  .main-body {
+    width: 50%; /* 2/4 of the total width, double the size of the side sections */
+    background-color: #e3f2fd; /* Light blue background */
+    padding: 20px;
+  }
+  
+  /* Right section styles */
+  .right-section {
+    width: 25%; /* 1/4 of the total width */
+    background-color: #ffeb3b; /* Yellow background */
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
